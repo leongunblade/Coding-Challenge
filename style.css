@@ -1,0 +1,105 @@
+
+body { /*Gestisce le impostazioni dello sfondo */
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+html { /*Fa in modo che lo sfondo occupi sempre tutta la pagina */
+  min-height: 100%;
+}
+
+* { /*Font universale applicato a tutta la pagina */
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  margin-bottom: 5px;
+  padding-bottom: 0px;
+
+}
+
+h2 {
+  display: inline-block;
+  margin-bottom: 5px;
+  padding-bottom: 0px;
+}
+
+
+.tabellone { /* Gestisce il grosso rettangolo nero che avvolge tutti gli elementi */
+  background-color: rgba(0, 0, 0, 0.60);
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+  width: 70%;
+  margin: auto;
+  box-sizing: content-box;
+  margin-top: 25px;
+  padding: 25px 25px 120px;
+}
+
+
+#logoimg { /* Gestisce il logo LIM in alto al centro */
+  max-width: 300px;
+  padding-top: 90px;
+}
+
+
+#scrittaheader { /*Gestisce la scritta subito sotto il logo */
+  color: #00FF0C;
+  font-size: 35px;
+}
+
+
+#navbar {  /* Gestisce la grossa barra di navigazione verde con i buttons */
+  background-color: #00FF0C;
+  width: 88.5%;
+  margin: auto;
+  padding: 10px;
+}
+
+.tasti {
+  display: inline-block;
+}
+
+.tabellamonopattini{ /*Inizio impostazioni tabella iunterna con i 3 monopattini e lo stato di carica */
+  width: 90%;
+  margin: auto;
+}
+
+.monopattino1 {
+  text-align: left;
+}
+
+#barra_monopattino1 {
+  background-color: #F7C444;
+  width: 30%;
+  padding: 8px;
+  border-radius: 5px;
+  height: 15px;
+}
+
+.monopattino2 {
+  text-align: left;
+}
+
+#barra_monopattino2 {
+  background-color: #1EAD25;
+  width: 55%;
+  padding: 8px;
+  border-radius: 5px;
+  height: 15px;
+}
+
+.monopattino3 {
+  text-align: left;
+}
+
+#barra_monopattino3 {
+  background-color: #E23A3D;
+  width: 15%;
+  padding: 8px;
+  border-radius: 5px;
+  height: 15px;
+} /* Fine impostazioni tabella interna monopattini e carica */
